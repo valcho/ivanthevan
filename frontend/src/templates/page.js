@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Page = ({ pageContext }) => {
+    console.log('Page > pageContext: ', pageContext);
+
     const { name, content } = pageContext
 
     return (
